@@ -33,21 +33,6 @@ Basta abrir o arquivo `damas.html` diretamente em qualquer navegador moderno. N�
 
 > ⚠️ No modo multiplayer, essa versão depende de um recurso de armazenamento específico do ambiente onde foi originalmente criada. Para multiplayer funcionando de forma independente (ex: hospedado no GitHub Pages), utilize a Opção 2.
 
-### Opção 2 — Google Apps Script + Google Sites (`Code.gs` + `Index.html`)
-
-Essa é a versão recomendada para uso em sala de aula, incorporada a um Google Site:
-
-1. Acesse [script.google.com](https://script.google.com) e crie um **Novo projeto**.
-2. Cole o conteúdo de `Code.gs` em um arquivo chamado `Code.gs`.
-3. Crie um novo arquivo HTML (**Arquivo → Novo → Arquivo HTML**) chamado exatamente `Index` e cole o conteúdo de `Index.html`.
-4. Vá em **Implantar → Nova implantação → tipo "App da Web"**:
-   - Executar como: **Eu**
-   - Quem pode acessar: **Qualquer pessoa**
-5. Copie a URL `.../exec` gerada.
-6. No Google Sites: **Inserir → Incorporar → Por URL**, cole essa URL.
-
-O multiplayer nessa versão usa `PropertiesService` do Apps Script como canal de sincronização simples entre os jogadores.
-
 ---
 
 ## 🧠 Como jogar
